@@ -1,2 +1,3 @@
-image:
-  file: .gitpod.dockerfile
+tasks:
+  - init: npm install && npm install gitbook-cli && npm run build
+    command: npm run dev
