@@ -1,4 +1,10 @@
+
 image:
   file: .gitpod.dockerfile
 tasks:
 - command: nvm install 12.18.1 && npm install -g gitbook-cli && gitbook install
+
+vscode:
+  extensions:
+    - bierner.markdown-mermaid
+    - yzhang.markdown-all-in-one
